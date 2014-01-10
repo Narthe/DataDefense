@@ -1,11 +1,11 @@
 using UnityEngine;
 using System.Collections;
 
-public class fireShots : MonoBehaviour {
+public class TowerBehaviour : MonoBehaviour {
 
 	public GameObject projectile;
 	private float delay = 0.0f;
-
+	private float damage = 1.5f;
 
 	void Start () {
 		
