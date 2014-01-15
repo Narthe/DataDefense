@@ -47,10 +47,16 @@ public class EnemyBehaviour : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
-		
+		Debug.LogWarning("collision");
 		if(other.gameObject.tag == "Projectile")
 		{
 			life--;
+		}
+		if(other.gameObject.tag == "Data")
+		{
+			Debug.LogWarning("collision données");
+			GameGlobals.DecreaseData();
+			Destroy(this.transform.gameObject);
 		}
 	}
 }

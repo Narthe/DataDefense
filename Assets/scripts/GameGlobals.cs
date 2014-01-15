@@ -18,7 +18,7 @@ public static class GameGlobals
 		data--;
 		if(data == 0)
 		{
-			LooseGame();
+			//LooseGame();
 		}
 	}
 

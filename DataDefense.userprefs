@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\GameGlobals.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\EnemyBehaviour.cs">
     <Files>
-      <File FileName="Assets\scripts\GameGlobals.cs" Line="21" Column="7" />
+      <File FileName="Assets\scripts\GameGlobals.cs" Line="59" Column="4" />
+      <File FileName="Assets\scripts\DataAttack.cs" Line="15" Column="2" />
+      <File FileName="Assets\scripts\EnemyBehaviour.cs" Line="50" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
