@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 22dba98ff06d8ee4db343b7aebafb491
+guid: e7ba04a8f05f1a946a44c1b3281fba96
 TextureImporter:
   serializedVersion: 2
   mipmaps:
@@ -38,7 +38,11 @@ TextureImporter:
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
-  buildTargetSettings: []
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
   spriteSheet:
     sprites: []
   spritePackingTag: 
