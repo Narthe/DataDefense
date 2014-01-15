@@ -50,7 +50,7 @@ public class EnemyBehaviour : MonoBehaviour {
 		
 		if(other.gameObject.tag == "Projectile")
 		{
-			life--;
+			life -= other.transform.gameObject.GetComponent<projectile>().damage;
 		}
 	}
 }
