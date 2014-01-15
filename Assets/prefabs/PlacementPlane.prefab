@@ -36,13 +36,13 @@ Renderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 69b31672c802b284e9300a6d33a31295, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -80,6 +80,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1de14419dae69bc49a46a56f1e4d64f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tower: {fileID: 100000, guid: c8983ebc1ed4fe64994f81eab7b07634, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
