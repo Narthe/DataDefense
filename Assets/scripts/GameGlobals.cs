@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+<<<<<<< HEAD
 public static class GameGlobals 
 {
 	//données du joueur(vie)
@@ -37,22 +38,11 @@ public static class GameGlobals
 	{
 		score++;
 	}
+=======
+public class GameGlobals : MonoBehaviour {
+>>>>>>> 22b7bfc096ab1505670f76a12014e9cd5c3ece21
 
-	//affiche l'écran de fin
-	public static void LooseGame()
-	{
-		//afficher l'écran de fin
-	}
-
-	//remet le jeu dans son état initial
-	public static void ResetGame()
-	{
-		//remettre toutes les variables à l'état initial
-	}
-
-	//augmente l'argent de 1
-	public static void IncreaseMoney()
-	{
-		money++;
-	}
+	public static int dataLeft;
+	public static int gold;
+	public static int score;
 }

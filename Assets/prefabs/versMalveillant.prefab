@@ -10,8 +10,12 @@ GameObject:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
   - 114: {fileID: 11400000}
+<<<<<<< HEAD
   - 58: {fileID: 5800000}
   m_Layer: 9
+=======
+  m_Layer: 0
+>>>>>>> 22b7bfc096ab1505670f76a12014e9cd5c3ece21
   m_Name: versMalveillant
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -29,6 +33,7 @@ Transform:
   m_LocalScale: {x: .565500796, y: .565500677, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
 --- !u!58 &5800000
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -40,6 +45,8 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_Radius: .800000012
   m_Center: {x: 0, y: 0}
+=======
+>>>>>>> 22b7bfc096ab1505670f76a12014e9cd5c3ece21
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1

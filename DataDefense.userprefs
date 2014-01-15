@@ -1,10 +1,30 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\EnemyBehaviour.cs">
     <Files>
       <File FileName="Assets\scripts\GameGlobals.cs" Line="59" Column="4" />
       <File FileName="Assets\scripts\DataAttack.cs" Line="15" Column="2" />
       <File FileName="Assets\scripts\EnemyBehaviour.cs" Line="50" Column="33" />
+=======
+<<<<<<< HEAD
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\EnemyWave.cs">
+    <Files>
+      <File FileName="Assets\scripts\EnemyWave.cs" Line="38" Column="147" />
+      <File FileName="Assets\scripts\GameGlobals.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\projectile.cs" Line="27" Column="43" />
+      <File FileName="Assets\scripts\TowerBehaviour.cs" Line="26" Column="36" />
+      <File FileName="Assets\scripts\EnemyBehaviour.cs" Line="14" Column="21" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\PlaceTower.cs">
+    <Files>
+      <File FileName="Assets\scripts\PlaceTower.cs" Line="25" Column="59" />
+      <File FileName="Assets\scripts\GameGlobals.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\EnemyBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\projectile.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\TowerBehaviour.cs" Line="6" Column="31" />
+>>>>>>> 8e03880b8458cfa3def0f8e06c1916d71e3b5878
+>>>>>>> 22b7bfc096ab1505670f76a12014e9cd5c3ece21
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -50,7 +50,7 @@ public class EnemyBehaviour : MonoBehaviour {
 		Debug.LogWarning("collision");
 		if(other.gameObject.tag == "Projectile")
 		{
-			life--;
+			life -= other.transform.gameObject.GetComponent<projectile>().damage;
 		}
 		if(other.gameObject.tag == "Data")
 		{
