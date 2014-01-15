@@ -23,9 +23,15 @@ public class TowerBehaviour : MonoBehaviour {
 			{
 				GameObject proj = Instantiate(projectile, new Vector2(transform.position.x, transform.position.y), Quaternion.identity) as GameObject;
 				proj.GetComponent<projectile>().setTarget(other.gameObject);
+				proj.GetComponent<projectile>().setDamage(damage);
 				//Debug.LogWarning("FIRE !!!");
 				delay = 0.0f;
 			}
 		}
+	}
+
+	void OnMouseDown()
+	{
+
 	}
 }
