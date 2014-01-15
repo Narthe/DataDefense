@@ -9,12 +9,15 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
-  - 114: {fileID: 11400000}
-  - 58: {fileID: 5800000}
-  - 50: {fileID: 5000000}
+<<<<<<< HEAD
   m_Layer: 9
-  m_Name: projectile
-  m_TagString: Projectile
+=======
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+>>>>>>> 22b7bfc096ab1505670f76a12014e9cd5c3ece21
+  m_Name: virusMalveillant
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,36 +29,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.77488804, y: 6.14020681, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -9.62985516, y: 13.1240673, z: 0}
+  m_LocalScale: {x: .526001036, y: .526001036, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!50 &5000000
-Rigidbody2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Mass: 9.99999975e-05
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 0
-  m_FixedAngle: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
---- !u!58 &5800000
-CircleCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Radius: .159999996
-  m_Center: {x: 0, y: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -64,11 +41,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f4c3695be0456247bf48b44ea427de8, type: 3}
+  m_Script: {fileID: 11500000, guid: ac43041ea5c17cc4a95b5988be9bde4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  range: 10
+  virusMalveillant: {fileID: 0}
+  versMalveillant: {fileID: 0}
+  chevalDeTroieMalveillant: {fileID: 0}
+  numberOfEnemy: 0
+  typeOfEnemy: 0
+  i: 0
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1b90226e20174349882b53242fff88e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -87,10 +80,10 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: -1
+  m_SortingLayer: 0
   m_SortingOrder: 0
-  m_SortingLayerID: 949305211
-  m_Sprite: {fileID: 21300000, guid: ede98fc438aaa0941b6ed5241985eb8f, type: 3}
+  m_SortingLayerID: 0
+  m_Sprite: {fileID: 21300000, guid: 1635cfd651bf61349a418e310cc83549, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
