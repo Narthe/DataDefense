@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
   - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
   m_Layer: 0
   m_Name: virusMalveillant
   m_TagString: Untagged
@@ -39,6 +40,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac43041ea5c17cc4a95b5988be9bde4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  virusMalveillant: {fileID: 0}
+  versMalveillant: {fileID: 0}
+  chevalDeTroieMalveillant: {fileID: 0}
+  numberOfEnemy: 0
+  typeOfEnemy: 0
+  i: 0
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1b90226e20174349882b53242fff88e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
